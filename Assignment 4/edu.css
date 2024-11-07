@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;}
+
+.navbar{
+    height: 60px;
+    background-color:#092945}
+
+.main{
+    background-image: url('lakeside-night.png');
+    background-size: cover;
+    height: 770px;}
+
+.title{
+    color: #0075FF;
+    width: 300px;
+    height: 25px;
+    margin-left: 3%;
+    padding-top: 16px;
+    font-size: 25px;
+} 
+.menu{
+    width: 600px; 
+    float: right;}
+
+ul{
+    list-style: none;
+    float: right;
+    display: flex;
+    align-items: center;
+    margin-right: 3%;
+
+}
+ul li{
+    margin-top: -7px;
+    margin-right: 60px;
+    font-family: sans-serif;
+    font-size: larger;
+
+}
+ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;}
+ul li a:hover{
+       background-color:#00459E;
+       transform: scale(10);
+}
+
+.text1{
+    width: 100%;
+
+}
+.text1 h1{
+    color:#FF905D;
+    font-size: 30px;
+    font-family: cursive;
+    text-align: center;
+    padding-top: 20px;
+    border-bottom: 3px solid #FF905D;
+    padding-bottom: 5px;
+    width: 40%;
+    margin-left: 9%;
+}
+.text1 ul li b{
+    text-align: center;
+    color: #ffffff;
+    font-size: 25px;
+
+ }
+.text1 ul {
+    text-align: center;
+    line-height: 40px;
+    margin-right: 800px;
+    padding-top: 60px;
+ }
+ .text1 h4{
+    color:#FF905D;
+    font-size: 30px;
+    font-family: cursive;
+    text-align: center;
+    padding-top: 20px;
+    border-bottom: 3px solid #FF905D;
+    padding-bottom: 5px;
+    width: 40%;
+    margin-left: 800px;
+    margin-top: -69px;
+}
+
+.lan{
+    display: flex;
+}
+.lan p{
+    color: #ffffff;
+    margin-left:1030px ;
+    font-size: 40px;
+    padding-top: 60px;
+    line-height: 60px;
+}
